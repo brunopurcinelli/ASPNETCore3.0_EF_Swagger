@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIClientes</name>
+    </assembly>
+    <members>
+        <member name="M:APIClientes.Helpers.DbMigrationHelpers.EnsureSeedData(Microsoft.AspNetCore.Hosting.IWebHost)">
+            <summary>
+            Generate migrations before running this method, you can use command bellow:
+            Nuget package manager: Add-Migration DbInit -context AdminDbContext -output Data/Migrations
+            Dotnet CLI: dotnet ef migrations add DbInit -c AdminDbContext -o Data/Migrations
+            </summary>
+            <param name="host"></param>
+        </member>
+        <member name="T:APIClientes.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:APIClientes.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:APIClientes.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Create WebHostBuilder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
